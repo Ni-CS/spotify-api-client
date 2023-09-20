@@ -18,8 +18,8 @@ public class SpotifyConfig {
 
         return new SpotifyApi
                 .Builder()
-                .setClientId("80db7f2b032a44a4a8a56991588a2ae2")
-                .setClientSecret("9438fcf9634a444cb065722e8f79cdc3")
+                .setClientId("clientid")
+                .setClientSecret("clientsecret")
                 .setRedirectUri(redirectedURL)
                 .build();
     }
